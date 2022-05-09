@@ -1,0 +1,154 @@
+body {
+    background-color: whitesmoke;
+}
+
+.wrapper {
+    width: 1027px;
+    margin: 0 auto;
+}
+
+textarea {
+    width: 1027px;
+    height: 152px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 12px;
+    background-color: inherit;
+}
+
+.keyboard {
+    width: 1027px;
+    height: 352px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 10px;
+}
+
+.row {
+    box-sizing: border-box;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+button {
+    box-sizing: border-box;
+    width: 62px;
+    height: 60px;
+    border: 2px solid #000000;
+    border-radius: 6px;
+    font-family: 'SF Compact Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.9;
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.tab,
+.capslock,
+.shift,
+.command,
+.space,
+.fn,
+.control,
+.option,
+.backspace,
+.return {
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.tab {
+    width: 96px;
+}
+
+.capslock,
+.return {
+    width: 114px;
+}
+
+.shift {
+    width: 149px;
+}
+
+.command {
+    width: 79px;
+}
+
+.space {
+    width: 342px;
+}
+
+.backspace {
+    width: 97px;
+}
+
+.focus {
+    background-color:#CCCCCC;
+    cursor: pointer;
+}
+
+.wrapper-arrows {
+    width: 202px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.arrowUp,
+.arrowDown,
+.arrowLeft,
+.arrowRight {
+    height: 29px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrowUp {
+    background-image: url(./arrowUp.png);
+    border-radius: 6px 6px 0px 0px;
+}
+
+.arrowDown {
+    background-image: url(./arrowDown.png);
+    border-radius: 0px 0px 6px 6px;
+}
+
+.arrowLeft {
+    background-image: url(./arrowLeft.png);
+}
+
+.arrowRight {
+    background-image: url(./arrowRight.png);
+}
+
+.arrowUpDown {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    height: 62px;
+    width: 62px;
+}
+
+p {
+  color: orangered;
+  font-size: 20px;
+}
